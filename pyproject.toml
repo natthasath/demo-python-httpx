@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "demo-python-httpx"
+version = "0.1.0"
+description = ""
+authors = ["Natthasath Saksupanara <natthasath.sak@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "demo_python_httpx"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+httpx = "^0.23.1"
+asyncio = "^3.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
