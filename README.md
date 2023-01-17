@@ -1,2 +1,2 @@
 # demo-python-httpx
-HTTPX is a fully featured HTTP client for Python 3, which provides sync and async APIs, and support for both HTTP/1.1 and HTTP/2.
+HTTPX is a modern, high-performance HTTP client for Python, with support for sync and async APIs, connection pooling, and features such as request streaming and response streaming. It's built on top of httptools and works with popular async frameworks like asyncio and trio.
